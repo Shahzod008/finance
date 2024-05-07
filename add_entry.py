@@ -1,7 +1,4 @@
-import uuid
 from datetime import datetime
-
-DATA_FILE = 'finance_data.json'
 
 
 def add_entry_income(icnome):

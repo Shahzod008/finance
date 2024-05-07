@@ -1,5 +1,6 @@
 from add_entry import add_entry
-import os
+from colorama import init
+
 
 balance = 0
 
@@ -23,7 +24,3 @@ def main():
 
 
 main()
-
-
-def clear_cmd():
-    os.system('cls' if os.name == 'nt' else 'clear')
